@@ -1,61 +1,69 @@
+#navdiv{
+  width: 100%;
+  height: 94px;
+  margin-top: -30px;
+  background-color: rgb(255, 255, 255);
+}
+
 #navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    border-bottom: 1px rgb(163, 163, 163) solid;
-    width: 100%;
-    height: 70px;
-    position: static;
-    transition: top 0.1s;
-  }
+  list-style-type: none;
+  border: 1px solid #e7e7e7;
+  border-bottom: 1px black solid;
+  width: 98%;
+  position: absolute;
+  font-size: 30px;
+  transition: top 0.3s;
+  margin-left: -10px;
+}
 
 #logo{
- float: left;
- height: 50px;   
+  float: left;
+  height: 50px; 
+  padding: 0px 2px;
+ }
+
+li {
+  float: left;
+  width: 100px;
+  transition: width 0.2s;
+}
+li:hover{
+    width: 130px;
 }
 
-#test{
-  color: black;
-  width: 100%;
-  height: 55px;
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+li a:hover:not(.active) {
+  background-color: rgba(255, 143, 143, 0.931);
+  color: rgb(255, 255, 255);
+}
 
-  li {
-    float: left;
-    width: 100px;
-    transition: width 0.2s;
-    z-index: 2;
-  }
-  li:hover{
-      width: 110px;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgba(123, 206, 137, 0.931);
-    color: rgb(255, 255, 255);
-  }
-  
-  li a.active {
-    color: rgba(37, 37, 37, 0.931);
-    font-size: 16px;
-    text-decoration: underline;
-    font-weight: bolder;
-  }
+li a.active {
+  background-color: rgba(181, 225, 255, 0.931);
+  color: rgba(37, 37, 37, 0.931);
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
 
-  li a.active:hover {
-    background-color: rgba(123, 206, 137, 0.931);
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    text-decoration: underline;
-  }
+li a.active:hover {
+  background-color: rgba(255, 143, 143, 0.931);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-decoration: underline;
+}
+#Donate{
+  background-color: rgb(214, 229, 255);
+  margin-right: 20px;
+  
+}
+#Donate:hover{
+  width: 140px;
+}
+
