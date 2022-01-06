@@ -1,7 +1,7 @@
 #navdiv{
   width: 100%;
   height: 94px;
-  margin-top: -30px;
+  margin-top: -39px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -10,6 +10,8 @@
   border: 1px solid #e7e7e7;
   border-bottom: 1px black solid;
   width: 98%;
+  height: 60px;
+  background-color: rgb(255, 247, 247);
   position: absolute;
   font-size: 30px;
   transition: top 0.3s;
@@ -25,6 +27,7 @@
 li {
   float: left;
   width: 100px;
+  height: 60px;
   transition: width 0.2s;
 }
 li:hover{
@@ -35,6 +38,7 @@ li a {
   display: block;
   color: rgb(0, 0, 0);
   text-align: center;
+  height: 32;
   padding: 14px 16px;
   text-decoration: none;
 }
