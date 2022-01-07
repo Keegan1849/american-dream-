@@ -31,7 +31,7 @@ li {
   transition: width 0.2s;
 }
 li:hover{
-    width: 130px;
+    width: 140px;
 }
 
 li a {
@@ -54,6 +54,7 @@ li a.active {
   font-size: 30px;
   text-decoration: underline;
   font-weight: bolder;
+  width: 120px;
 }
 
 li a.active:hover {
