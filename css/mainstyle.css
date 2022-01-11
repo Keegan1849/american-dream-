@@ -1,4 +1,7 @@
-#canada:hover{
-    background-image: url('https://www.enterpriseholdings.com/content/dam/ehicom/ImageAssets/Canadian_Flag.jpg');
-    font-size: 300px;
+body{
+    background-image: url('https://minibackground.com/wp-content/uploads/2019/01/Wilson-wood.jpg');
+    background-position-x: 00px;
+    background-size: 1000px;
+    animation: slide ease 0.5s;
 }
+
