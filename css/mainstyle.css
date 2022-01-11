@@ -1,7 +1,21 @@
 body{
     background-image: url('https://minibackground.com/wp-content/uploads/2019/01/Wilson-wood.jpg');
-    background-position-x: 00px;
-    background-size: 1000px;
+    background-position-x: 0px;
+    background-size: 1000;
     animation: slide ease 0.5s;
 }
 
+#slideshow{
+
+}
+
+#labelbutton{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+}
+
+#labelarrow{
+    font-size: 32px;
+    width: 12px;
+}
