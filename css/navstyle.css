@@ -1,0 +1,74 @@
+#navdiv{
+  width: 100%;
+  height: 94px;
+  margin-top: -39px;
+  background-color: rgb(255, 255, 255);
+}
+
+#navbar {
+  list-style-type: none;
+  border: 1px solid #e7e7e7;
+  border-bottom: 1px rgb(206, 206, 206) solid;
+  width: 98%;
+  height: 60px;
+  background-color: rgb(255, 247, 247);
+  position: absolute;
+  font-size: 30px;
+  transition: top 0.3s;
+  margin-left: -10px;
+}
+
+#logo{
+  float: center;
+  height: 90%; 
+  margin-left: 25%;
+  padding: 0px 10px;
+ }
+
+li {
+  float: left;
+  width: 100px;
+  height: 60px;
+  transition: width 0.2s;
+}
+li:hover{
+    width: 110px;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 32;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(255, 143, 143, 0.931);
+  color: rgb(255, 255, 255);
+}
+
+li a.active {
+  background-color: rgba(181, 225, 255, 0.931);
+  color: rgba(37, 37, 37, 0.931);
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+li a.active:hover {
+  background-color: rgba(255, 143, 143, 0.931);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-decoration: underline;
+}
+#Donate{
+  background-color: rgb(214, 229, 255);
+  margin-right: 20px;
+  
+}
+#Donate:hover{
+  width: 140px;
+}
+
