@@ -8,7 +8,7 @@
 #navbar {
   list-style-type: none;
   border: 1px solid #e7e7e7;
-  border-bottom: 1px black solid;
+  border-bottom: 1px rgb(206, 206, 206) solid;
   width: 98%;
   height: 60px;
   background-color: rgb(255, 247, 247);
@@ -33,7 +33,7 @@ li {
   transition: width 0.2s;
 }
 li:hover{
-    width: 140px;
+    width: 110px;
 }
 
 li a {
