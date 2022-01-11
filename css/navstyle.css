@@ -32,7 +32,11 @@ li {
   transition: width 0.2s;
 }
 li:hover{
+<<<<<<< HEAD
     width: 110px;
+=======
+    width: 140px;
+>>>>>>> e68fe8148d19d886c6189ea336b8786c3f95e3d1
 }
 
 li a {
@@ -55,6 +59,7 @@ li a.active {
   font-size: 30px;
   text-decoration: underline;
   font-weight: bolder;
+  width: 120px;
 }
 
 li a.active:hover {
