@@ -10,7 +10,6 @@
 .profileimage{
     width: 140px;
     height: 128px;
-    background-image: url('../images/jp.jpg');
     background-size: 140px;
     display: inline-block;
 }

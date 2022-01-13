@@ -2,16 +2,16 @@
   width: 100%;
   height: 94px;
   margin-top: -39px;
-  background-color: rgb(255, 247, 247);
+  background-color: rgb(255, 255, 255);
 }
 
 #navbar {
   list-style-type: none;
   border: 1px solid #e7e7e7;
-  border-bottom: 1px rgb(206, 206, 206) solid;
+  border-bottom: 1px rgb(0, 0, 0) solid;
   width: 98%;
   height: 60px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(238, 237, 237);
   position: fixed;
   font-size: 30px;
   transition: top 0.3s;
