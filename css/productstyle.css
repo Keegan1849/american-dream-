@@ -2,25 +2,31 @@
     width: 15%;
     margin-left: 12%;
     margin-top: 4%;
-    border: 2px solid #333333;
-    border-radius: 2.5%;    
-
+    border: 1px solid #333333;
+    border-radius: 15px;
+    transition: width 0.2s, margin-left 0.2s, border-radius 0.2s;    
 }
+#pic1:hover{
+    width: 20%;
+    margin-left: 5%;
+    border-radius: 40px;
+}
+
 #p1{
     font-size: 25px;
 }
 #div{
-    height: 20%;
+    height: 10%;
     width: 60%;
-    border-radius: 2.5%;    
-    border: 2px solid #333333;
+    border-radius: 20px;    
+    border: 1px solid #333333;
     margin-top: -10%;
     margin-left: 30%;
     background-color: white;
+    padding: 10px;
 }
 body{
     background-image: url('https://minibackground.com/wp-content/uploads/2019/01/Wilson-wood.jpg');
     background-position-x: 0px;
     background-size: 1000;
-
 }

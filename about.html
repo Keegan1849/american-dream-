@@ -16,12 +16,17 @@
             <li><a href="Products.html">Products</a></li>
             <li style="float:right" id="Donate"><a href="Donate.html">Temp</a></li>
             <li style="float:right" id="Donate"><a href="credits.html">Temp</a></li></ul></div>
-<h1>
-<center><P id="canada">About Us</P>
+<h1><center>
+  
+<div id="aboutdiv">
+<P id="canada">Among Us</P>
   <P id="abouttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
-</center></h1><center>
+</h1></div></center>
+
+
+<center><div id="aboutdiv">
   <div class="profileimage">
     <P class="profiletext">Blake Swaboda</P></div>
     <img src="images/IMG_9796 (1).JPG"  style="width:13%">
@@ -34,6 +39,31 @@
 <div class="profileimage">
     <P class="profiletext">Kayden Dew</P></div>
     <img src="images/IMG_9802 (1).JPG"  style="width:13%">
-</center>
+</div></center>
+
+
+
+<script src="three.r119.min.js"></script>
+<script src="vanta.waves.min.js"></script>
+<script>
+VANTA.WAVES({
+  el: "#aboutdiv",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xa0a0a0,
+  shininess: 20.00,
+  waveHeight: 20.50,
+  waveSpeed: 0.15,
+  zoom: 1.75
+})
+</script>
+
+
+
     </body>
 </html>
