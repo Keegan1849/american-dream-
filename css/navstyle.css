@@ -19,7 +19,6 @@
   border-radius: 20px;
 }
 #navbar:hover{
-
 }
 
 #logo{
@@ -39,8 +38,7 @@ li {
   padding-right: 10px;
   position: static;
 }
-li:hover{
-}
+
 
 li a {
   display: block;
@@ -86,7 +84,7 @@ li a.active:hover {
   font-size: 30px;
   height: 30px;
   width: 100%;
-  text-decoration: underline;
+  text-decoration: none;
 }
 #Donate{
 
@@ -107,3 +105,4 @@ li a.active:hover {
   #logo{
     height: 54px;
   }
+}

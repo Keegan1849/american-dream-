@@ -1,16 +1,60 @@
+
+#product{
+    width: 100%;
+    display: inline-block;
+    overflow-x: hidden;
+}
+
+
 #pic1{
     width: 15%;
     margin-left: 12%;
     margin-top: 4%;
     border: 1px solid #333333;
     border-radius: 15px;
-    transition: width 0.2s, margin-left 0.2s, border-radius 0.2s;    
+    transition: width 0.2s, margin-left 0.2s, border-radius 0.2s, border 0.6s;    
 }
-#pic1:hover{
+#product:hover #pic1{
+    padding: 3px;
+    border: 20px solid #333333;
     width: 20%;
     margin-left: 5%;
     border-radius: 40px;
 }
+
+
+#submit{
+    background-image: linear-gradient(to top, rgb(235, 251, 253), rgb(255, 235, 235));
+    font-size: 30px;
+    width: 200px;
+    height: 75px;
+    border-radius: 20px;
+    margin-right: 300px;
+    transition: background-image 1.2s;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to top, rgb(130, 255, 146), rgb(175, 231, 184));
+}
+
+
+#submitButton{
+    width: 1px;
+    margin-right: -161%;
+    margin-top: 10px;
+    transition: margin-right 0.2s;
+    position: static;
+}
+
+#product:hover #submitButton{
+    margin-right: -61%;
+}
+
+#product:hover #div{
+    transition: background-color 0.2s;
+    background-color: whitesmoke;
+} 
+
 
 #p1{
     font-size: 25px;
