@@ -60,7 +60,7 @@
     font-size: 25px;
 }
 #div{
-    height: 10%;
+    height:inherit;
     width: 60%;
     border-radius: 20px;    
     border: 1px solid #333333;

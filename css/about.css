@@ -20,8 +20,14 @@ body{
     display: inline-block;
 }
 
+#profileimage{
+    width: 250px;
+}
+
 .profiletext{
-    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 
 #aboutdiv{    
@@ -30,5 +36,5 @@ body{
     border-radius: 20px;    
     border: 1px solid #333333;
     background-color: white;
-    display: inline-block
+    display: inline-block;
 }
