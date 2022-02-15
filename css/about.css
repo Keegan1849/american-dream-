@@ -38,3 +38,14 @@ body{
     background-color: white;
     display: inline-block;
 }
+
+#aboutdiv2{    
+    padding-top: 100px;
+    height: inherit;
+    width: 90%;
+    border-radius: 20px;    
+    border: 1px solid #333333;
+    background-color: white;
+    display: inline-block;
+}
+
